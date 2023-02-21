@@ -1,0 +1,66 @@
+body{
+    font-size: larger;
+}
+
+.pfixed{
+    position: fixed;
+    background:  palevioletred;
+}
+
+.prelative{
+    position: relative;
+    background: lightblue;
+    top: 30px;
+}
+
+.pabsolute{
+    position: absolute;
+    background: lightgreen;
+    top: 70px;
+    right: 15px;
+}
+
+.fright{
+    position: relative;
+    top: 10px;
+    float:left;
+    border: 1px solid red;
+}
+
+.fleft{
+    position: relative;
+    top: 30px;
+    float: right;
+    border: 1px solid blue;
+}
+
+.fcenter{
+    position: relative;
+    top: 60px;
+    float:center;
+    border: 1px solid blueviolet;
+}
+
+.block{
+    background-color: pink;
+}
+
+.inline{
+    background-color: plum;
+}
+
+li {
+    display: inline;
+}
+
+span {
+    display: block;
+}
+
+.displayhide{
+    display: none;
+}
+
+.visibilityhidden{
+    visibility: hidden;
+}

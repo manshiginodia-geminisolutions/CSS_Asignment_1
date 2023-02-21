@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 2</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+
+<body>
+    <div class="header">
+    <h2>Student Registeration Form</h2></div>
+    <div class="container">
+    <form action="/action_page.php" target="_blank">
+        <div class="subcontainer">
+            <lable for="name">Name:</lable>
+            <input type="text" id="name" name="name" placeholder="Enter Name">
+            <br><br>
+            <lable for="phno">Phone Number:</lable>
+            <input type="number" id="phno" name="phno" placeholder="Enter Phone Number">
+            <br><br>
+            <lable for="dob">Date of Birth:</lable>
+            <input type="date" id="dob" name="dob">
+            <br><br>
+            <lable for="address">Address:</lable>
+            <textarea name="address"></textarea>
+            <br><br>
+            <lable for="gender">Gender:</lable> <br>
+            <input type="radio" id="male" name="gender" value="male"> <label for="male">Male</label> <input type="radio"
+                id="female" name="gender" value="female"> <label for="male">Female</label>
+            <br><br>
+            <label for="city">City:</label>
+            <select id="city" name="city">
+                <option value="none" selected disabled hidden>Select a City</option>
+                <option value="kolkata">Kolkata</option>
+                <option value="gurugram">Gurugram</option>
+                <option value="bangalore">Bangalore</option>
+            </select>
+            <br><br>
+            <label for="hobby">Hobbies:</label> <br>
+            <input type="checkbox" id="hobby1" name="hobby1" value="music">
+            <lable for="hobby1">Music</lable> <input type="checkbox" id="hobby2" name="hobby1" value="sports">
+            <lable for="hobby2">Sports</lable> <input type="checkbox" id="hobby3" name="hobby1" value="reading">
+            <lable for="hobby3">Reading</lable> <input type="checkbox" id="hobby3" name="hobby1" value="dancing">
+            <lable for="hobby3">Dancing</lable>
+            <br><br>
+            <div class="button">
+                <button type="submit">Submit</button>
+                <button type="reset">Reset</button>
+            </div>
+    </form>
+</div>
+<br><br><br>
+<table class="tbl">
+    <tr>
+        <th>SNo</th>
+        <th>Name</th> 
+        <th>Phone no</th>
+        <th>Gender</th>
+        <th>City</th> 
+        <th>Hobbies</th> 
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>Manshi</td>
+        <td>9997723123</td>
+        <td>Female</td>
+        <td>Kolkata</td>
+        <td>Reading<br>
+            Writing<br>
+            Dancing
+        </td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>Mack</td>
+        <td>1153037466</td>
+        <td>Male</td>
+        <td>Bangalore</td>
+        <td>Singing<br>
+            
+            Cooking
+        </td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td>John</td>
+        <td>9865472234</td>
+        <td>Male</td>
+        <td>Gurugram</td>
+        <td>Cooking<br>
+            Dancing<br>
+            Traveling
+        </td>
+    </tr>
+</table>
+</body>
+
+</html>
